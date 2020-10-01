@@ -1,0 +1,14 @@
+Simple Syntax
+The syntax is similar to the one you used with str.format() but less verbose. Look at how easily readable this is:
+
+>>> age = 74
+>>> f"Hello, {name}. You are {age}."
+'Hello, Eric. You are 74.'
+
+It would also be valid to use a capital letter F:
+>>> F"Hello, {name}. You are {age}."
+'Hello, Eric. You are 74.'
+
+You could do something pretty straightforward, like this:
+>>> f"{2 * 37}"
+'74'
